@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+/*navegação*/
+
+nav{
+    background-image: linear-gradient(to right, #BF8415, #D99518, #F2A71B, #F4C264);
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #1f5f86;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul li{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #0487D9, #049DD9, #35DFF2, #07F2DB);
+}
+
+
+
+header div img{
+    width: 360px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+#descricao{
+    flex-direction: column;
+    background-image: linear-gradient(to right, #BF8415, #D99518, #F2A71B, #F4C264);
+    padding: 5px;
+}
+
+#descricao img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#descricao p{
+    text-align: center;
+    font-size: 16px;
+}
+
+#itens{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+#itens div{
+    background-image: linear-gradient(to right, #0a6aa7,#033453,#033453, #033453 );
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#itens div img{
+    width: 34px ;
+}
+
+#runas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, #0a6aa7,#033453,#033453, #033453);
+   
+}
+
+#runas h3{
+    color: white;
+}
+
+#runas div{
+    background-color: white;
+    border-radius: 5px;
+}
+
+#runas div p{
+    padding: 10px;
+}
+
+#runas img{
+    border-radius: 40px;
+}
+
+#runas div img{
+    width: 30px;
+}
+
+
+@media  screen and (min-width: 678px) {
+    
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header div img{
+        width: 900px;
+    }
+
+    
+    
+
+    
+    
+    
+}
